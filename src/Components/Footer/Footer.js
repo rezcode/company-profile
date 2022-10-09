@@ -18,7 +18,7 @@ const Footer = () => {
               >
                 <div className={`col-5 text-center ${style.borderRight}`}>
                   <h2>
-                    Lest Stay <br /> Connected
+                    Let's Stay <br /> Connected
                   </h2>
                 </div>
                 <div className="col-5 text-center mt-3">
