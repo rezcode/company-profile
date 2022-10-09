@@ -9,27 +9,25 @@ const Footer = () => {
   return (
     <>
       <div className={style.footerWrapper}>
-        <div className={`${style.overlay} ${style.overlayRed}`}>
-          <div className={style.footerContent}>
-            <div className="container">
-              <div
-                className="row align-items-center justify-content-center"
-                style={{ height: "500px", color: "white" }}
-              >
-                <div className={`col-5 text-center ${style.borderRight}`}>
-                  <h2>
-                    Let's Stay <br /> Connected
-                  </h2>
-                </div>
-                <div className="col-5 text-center mt-3">
-                  <h3>Follow Us</h3>
-                  <p className={style.socials}>
-                    <GrInstagram size={30} />
-                    <BsLinkedin size={30} />
-                    <FiTwitter size={30} />
-                    <FaFacebookSquare size={30} />
-                  </p>
-                </div>
+        <div className={style.overlay}>
+          <div className="container">
+            <div
+              className="row align-items-center justify-content-center"
+              style={{ height: "500px", color: "white" }}
+            >
+              <div className={`col-5 text-center ${style.borderRight}`}>
+                <h2>
+                  Let's Stay <br /> Connected
+                </h2>
+              </div>
+              <div className="col-5 text-center mt-3">
+                <h3>Follow Us</h3>
+                <p className={style.socials}>
+                  <GrInstagram size={30} />
+                  <BsLinkedin size={30} />
+                  <FiTwitter size={30} />
+                  <FaFacebookSquare size={30} />
+                </p>
               </div>
             </div>
           </div>

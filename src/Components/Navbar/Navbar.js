@@ -7,7 +7,12 @@ import style from "./Navbar.module.css";
 function Navigation() {
   return (
     <Navbar
-      style={{ position: "fixed", width: "100%", marginTop: "-100px" }}
+      style={{
+        position: "fixed",
+        width: "100%",
+        marginTop: "-100px",
+        zIndex: 2,
+      }}
       bg="primary"
       variant="dark"
       expand="lg"
