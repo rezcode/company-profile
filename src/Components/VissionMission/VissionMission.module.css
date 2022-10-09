@@ -30,7 +30,7 @@
 
 .cardImg img {
   width: 60px;
-  height: 100%;
+  height: 160px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -39,11 +39,5 @@
   .content h1 {
     font-size: 6vw;
     font-weight: bolder;
-  }
-  .cardImg img {
-    width: 60px;
-    height: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
   }
 }
