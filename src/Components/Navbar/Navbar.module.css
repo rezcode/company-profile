@@ -1,0 +1,21 @@
+.logoBrand img {
+  width: 75px;
+  margin-left: -15px;
+}
+
+.navlink a:after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #ffffff;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  border-radius: 15px;
+}
+
+.navlink a:hover:after {
+  transform: scaleX(1);
+}
+
+.fromLeft:after {
+  transform-origin: 0% 50%;
+}

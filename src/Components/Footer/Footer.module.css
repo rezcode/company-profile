@@ -1,0 +1,35 @@
+.footerWrapper {
+  background-image: url(../../Assets/Images/footer-background.png);
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.overlayRed {
+  background: rgba(238, 11, 11, 0.4);
+}
+
+.borderRight::after {
+  content: "";
+  background-color: white;
+  position: absolute;
+  width: 5px;
+  height: 150px;
+  top: 35%;
+  left: 50%;
+  display: block;
+  border-radius: 15px;
+}
+
+.socials svg {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
