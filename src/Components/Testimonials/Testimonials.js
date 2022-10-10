@@ -79,7 +79,7 @@ export default function Testimonials() {
                           </p>
                           <h5 className="text-end">{item?.name}</h5>
                           <p className="card-text text-end m-0">
-                            <small>Last updated 3 mins ago</small>
+                            <small>{item?.company}</small>
                           </p>
                         </div>
                       </div>
