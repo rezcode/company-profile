@@ -1,0 +1,65 @@
+.background {
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 30px;
+  width: 100%;
+  min-height: 600px;
+  border-radius: 15px;
+}
+
+.overlay {
+  width: 100%;
+  min-height: 600px;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 0, 0.4416360294117647) 0%,
+    rgba(13, 12, 12, 0.7693671218487395) 100%
+  );
+  border-radius: 15px;
+}
+
+.content {
+  padding-top: 15%;
+  color: white;
+  text-align: center;
+}
+
+.content h3 {
+  font-weight: bold;
+}
+
+.content p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+  .background {
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+    width: 100%;
+    min-height: 300px !important;
+    border-radius: 15px;
+  }
+  .overlay {
+    width: 100%;
+    min-height: 300px;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 0, 0, 0.4416360294117647) 0%,
+      rgba(13, 12, 12, 0.7693671218487395) 100%
+    );
+    border-radius: 15px;
+  }
+
+  .serviceDescription h1 {
+    text-align: center;
+  }
+
+  .serviceDescription p {
+    text-align: justify;
+  }
+}
